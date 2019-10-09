@@ -12,7 +12,7 @@ const char *red = "\x1B[31m";
 const char *blue = "\x1B[36m";
 const char *yellow = "\x1B[93m";
 const char *magenta = "\x1B[95m";
-const char *brown_ish = "\x1B[90m";
+const char *brown_ish = "\e[0;33m";
 
 void my_putstr(const char *str);
 
